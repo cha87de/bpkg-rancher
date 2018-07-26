@@ -65,7 +65,7 @@ function rancherGetRegistration(){
         return 1
     fi
 
-    echo "$registrationData"
+    echo "${registrationData[0]} ${registrationData[1]}"
 }
 
 if [[ ${BASH_SOURCE[0]} != $0 ]]; then
