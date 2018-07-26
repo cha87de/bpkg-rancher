@@ -13,7 +13,7 @@
 function getRancherStatusCode(){
     rancherUrl=$1
     curl -I ${rancherUrl}/ 2>/dev/null | head -n 1 | cut -d$' ' -f2
-    if [[ $${PIPESTATUS[0]} -eq 0 ]]; then
+    if [[ ${PIPESTATUS[0]} -eq 0 ]]; then
         return 0
     else
         return 1
