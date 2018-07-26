@@ -1,0 +1,7 @@
+{
+  "name": "bpkg-rancher",
+  "version": "0.0.1",
+  "description": "rancher bootstrapping and maintaining",
+  "install": "make install",
+  "repo": "cha87de/bpkg-rancher"
+}
